@@ -19,6 +19,7 @@ func interact(sender: player):
 func on_complete_desafio(d: desafio):
 	is_on = true;
 	$light.light_color = color_on;
-	on_completed_desafio.call();
+	if (on_completed_desafio.is_valid()):
+		on_completed_desafio.call();
 
 	

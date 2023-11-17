@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://gs00isij3idj"]
 
-[ext_resource type="Texture2D" uid="uid://cqqppojct5kx6" path="res://Models/cover.png" id="1_3apt8"]
+[ext_resource type="Texture2D" uid="uid://cqqppojct5kx6" path="res://Nova pasta/cover.png" id="1_3apt8"]
 
 [node name="Control" type="Control"]
 layout_mode = 3

@@ -48,8 +48,8 @@ func complete_all_missions():
 
 func setup_mission(_mission: mission):
 	current_time = _mission.mission_time;
-	_mission.start_mission();
 	_mission.on_complete = on_complete_current_mission;
+	_mission.start_mission();
 	
 func on_complete_current_mission(_mission: mission):
 	print("mission " + _mission.name + " completed")
