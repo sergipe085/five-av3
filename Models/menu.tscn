@@ -1,25 +1,105 @@
-[gd_scene load_steps=2 format=3 uid="uid://gs00isij3idj"]
+[gd_scene load_steps=15 format=3 uid="uid://gs00isij3idj"]
 
 [ext_resource type="Texture2D" uid="uid://cqqppojct5kx6" path="res://Nova pasta/cover.png" id="1_3apt8"]
+[ext_resource type="FontFile" uid="uid://cgaway51m20x" path="res://Materials/Consolas.ttf" id="1_55nw1"]
+[ext_resource type="Script" path="res://Models/menu.gd" id="1_ql8b1"]
+[ext_resource type="Texture2D" uid="uid://eb0u1m7uinyj" path="res://Nova pasta/cover 2.png" id="3_067ne"]
+[ext_resource type="Texture2D" uid="uid://b8cagyitypgsp" path="res://Nova pasta/cover 3.png" id="4_422cc"]
+[ext_resource type="Texture2D" uid="uid://cmgshs5as04rc" path="res://Models/static/cover 4.png" id="5_vdxy3"]
+[ext_resource type="Texture2D" uid="uid://bvjhe773unbfq" path="res://Models/static/static1.png" id="6_gmmid"]
+[ext_resource type="Texture2D" uid="uid://bfj3ed1aiwgsf" path="res://Models/static/static2.png" id="7_1ooxw"]
+[ext_resource type="Texture2D" uid="uid://bkljuv0ic0ho0" path="res://Models/static/static3.png" id="8_4wm7w"]
+[ext_resource type="Texture2D" uid="uid://b3sawwidmnwos" path="res://Models/static/static4.png" id="9_ew48v"]
+[ext_resource type="Texture2D" uid="uid://loxlevhj5fqp" path="res://Models/static/static5.png" id="10_nbq4p"]
 
-[node name="Control" type="Control"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_ioe4y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_067ne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vdxy3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_422cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_067ne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_3apt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vdxy3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_xgmgy"]
+blend_mode = 1
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kwiup"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_gmmid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1ooxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4wm7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ew48v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_nbq4p")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="menu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Start" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="VBoxContainer"]
-layout_mode = 2
+mouse_filter = 2
+script = ExtResource("1_ql8b1")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
@@ -37,3 +117,28 @@ text = "Five
 Nights
 at
 Freddy´s"
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(961.5, 538)
+scale = Vector2(1.50703, 1.48476)
+sprite_frames = SubResource("SpriteFrames_ioe4y")
+frame_progress = 0.644309
+
+[node name="Animacao" type="AnimatedSprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_xgmgy")
+position = Vector2(966, 543.25)
+scale = Vector2(1.50312, 1.48345)
+sprite_frames = SubResource("SpriteFrames_kwiup")
+frame_progress = 0.749605
+
+[node name="start_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 124.0
+offset_top = 550.0
+offset_right = 434.0
+offset_bottom = 629.0
+theme_override_fonts/font = ExtResource("1_55nw1")
+theme_override_font_sizes/font_size = 50
+text = ">> Novo jogo"
+
+[connection signal="pressed" from="start_button" to="." method="_on_start_button_pressed"]
