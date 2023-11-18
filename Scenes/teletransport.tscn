@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjem4d0xd3ak6"]
+
+[ext_resource type="Script" path="res://Scenes/teletransport.gd" id="1_dqnog"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ivnix"]
+size = Vector3(1.69392, 2.01993, 1)
+
+[node name="teletransport" type="Area3D"]
+script = ExtResource("1_dqnog")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_ivnix")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
