@@ -3,9 +3,9 @@ extends Control
 class_name history
 
 @export var textures: Array[TextureRect]
+@export var timer_to_swich = 7.0;
 
 var timer = 0.0;
-var timer_to_swich = 3.0;
 var transitioning = false;
 var current_texture = 0;
 var target_texture = 0;
@@ -27,7 +27,7 @@ func _process(delta):
 	
 	if (transitioning):
 		$transition.color.a = lerp($transition.color.a, 1.0, 4 * delta);
-		if ($transition.color.a >= 0.9):
+		if ($transition.color.a >= 0.99):
 			for i in textures:
 				i.visible = false;
 			current_texture+= 1;

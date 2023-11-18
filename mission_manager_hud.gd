@@ -30,7 +30,7 @@ func on_change_mission_status(_m: mission):
 
 func on_start_mission(_m: mission):
 	status = "SHOW";
-	$mission_name.text = _m.mission_name + " " + _m.get_status();
+	$mission_name.text = ">> " + _m.mission_name + " " + _m.get_status() + " <<";
 	$mission_desc.text = _m.mission_desc;
 	_m.on_add_quantity = on_change_mission_status;
 	
@@ -40,5 +40,8 @@ func on_complete_mission(_m: mission):
 func on_complete_all_missions():
 	status = "COMPLETED";
 	$mission_name.text = "Voce ganhou!"
+	
+func on_fail():
+	status = "FAILED";
 
 	
