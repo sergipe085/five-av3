@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://vvdmjqygrley"]
+
+[ext_resource type="PackedScene" uid="uid://cupinmvbfn55p" path="res://Models/faixada/scene.gltf" id="1_po3uj"]
+
+[node name="scene" instance=ExtResource("1_po3uj")]
+
+[node name="Cube_002_8" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="0"]
+transform = Transform3D(13.6031, 0, 0, 0, 0.0829945, 0, 0, 0, 13.6031, -0.586219, 7.68981, -5.83073)
+visible = false
+
+[node name="Object_6" parent="Sketchfab_model/root/GLTF_SceneRootNode/sky_9" index="0"]
+transform = Transform3D(1, 0, 0, -2.38419e-07, 1, 2.38419e-07, 3.72529e-09, -1.86265e-09, 1, 0, 0, 0)
+visible = false
+
+[node name="Object_9" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, -1.16415e-10, 0, 0, 0.2, 0, -0.0166176, 2.42596)
+
+[node name="Object_10" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="2"]
+transform = Transform3D(1, 0, 0, 0, 1, -9.31323e-10, 0, 0, 1, 0, 0.0034259, -0.500138)
+
+[node name="Object_14" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="6"]
+transform = Transform3D(1, 0, 0, 0, 1, -1.16415e-10, 0, 0, 0.2, 0, -0.0160131, 2.33771)
+
+[node name="Object_15" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.02, 0, -0.0207396, 3.02772)
+
+[node name="Object_17" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="9"]
+transform = Transform3D(1, 0, 0, 0, 1, -9.31323e-10, 0, 0, 1, 0, 0.00339526, -0.495661)
+
+[node name="Object_19" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="11"]
+transform = Transform3D(1, 0, 0, 0, 1, -9.31323e-10, 0, 0, 1, 0, 0.00338697, -0.494455)
+
+[node name="Object_21" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="13"]
+gi_lightmap_scale = 3
+
+[node name="Object_22" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="14"]
+transform = Transform3D(1, 0, 0, 0, 1, -4.65661e-10, 0, 0, 1, 0, 0, 0)
+
+[node name="Object_30" parent="Sketchfab_model/root/GLTF_SceneRootNode/Cube_365_10" index="22"]
+transform = Transform3D(1, 0, 0, 0, 1, -4.65661e-10, 0, 0, 1, 0, 0, 0)

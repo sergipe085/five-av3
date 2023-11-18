@@ -13,3 +13,8 @@ func _on_start_button_pressed():
 	print("start game")
 	if (on_click_play.is_valid()):
 		on_click_play.call();
+
+
+func _on_start_pressed():
+	if (on_click_play.is_valid()):
+		on_click_play.call();

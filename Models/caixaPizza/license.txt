@@ -1,0 +1,11 @@
+Model Information:
+* title:	fnaf pizza box
+* source:	https://sketchfab.com/3d-models/fnaf-pizza-box-6a47cbc4e3904833aede3d3b68e07ba5
+* author:	cevans2026 (https://sketchfab.com/cevans2026)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "fnaf pizza box" (https://sketchfab.com/3d-models/fnaf-pizza-box-6a47cbc4e3904833aede3d3b68e07ba5) by cevans2026 (https://sketchfab.com/cevans2026) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,16 +1,16 @@
 [gd_scene load_steps=16 format=3 uid="uid://gs00isij3idj"]
 
 [ext_resource type="Script" path="res://Models/menu.gd" id="1_6v573"]
-[ext_resource type="Texture2D" uid="uid://cqqppojct5kx6" path="res://Models/Nova pasta/cover.png" id="1_wc1wq"]
-[ext_resource type="FontFile" uid="uid://cyun600de1fds" path="res://Materials/Consolas.ttf" id="2_731pt"]
+[ext_resource type="Texture2D" uid="uid://cqqppojct5kx6" path="res://Nova pasta/cover.png" id="1_wc1wq"]
+[ext_resource type="FontFile" uid="uid://cyun600de1fds" path="res://Scenes/menu/Consolas.ttf" id="2_731pt"]
 [ext_resource type="Texture2D" uid="uid://bvjhe773unbfq" path="res://Models/static/static1.png" id="2_i4ux3"]
 [ext_resource type="Texture2D" uid="uid://bfj3ed1aiwgsf" path="res://Models/static/static2.png" id="3_ntaei"]
 [ext_resource type="Texture2D" uid="uid://bkljuv0ic0ho0" path="res://Models/static/static3.png" id="4_gd1d7"]
 [ext_resource type="Texture2D" uid="uid://b3sawwidmnwos" path="res://Models/static/static4.png" id="5_mteyd"]
 [ext_resource type="Texture2D" uid="uid://loxlevhj5fqp" path="res://Models/static/static5.png" id="6_s4hi6"]
-[ext_resource type="Texture2D" uid="uid://eb0u1m7uinyj" path="res://Models/static/cover 2.png" id="7_g5sei"]
-[ext_resource type="Texture2D" uid="uid://b8cagyitypgsp" path="res://Models/static/cover 3.png" id="8_dltvl"]
-[ext_resource type="Texture2D" uid="uid://d3jh7h08rjxh7" path="res://Models/Nova pasta/cover 4.png" id="9_5pow7"]
+[ext_resource type="Texture2D" uid="uid://eb0u1m7uinyj" path="res://Nova pasta/cover 2.png" id="7_g5sei"]
+[ext_resource type="Texture2D" uid="uid://b8cagyitypgsp" path="res://Nova pasta/cover 3.png" id="8_dltvl"]
+[ext_resource type="Texture2D" uid="uid://d3jh7h08rjxh7" path="res://Nova pasta/cover 4.png" id="9_5pow7"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_aocgy"]
 font = ExtResource("2_731pt")
@@ -201,3 +201,4 @@ offset_right = 8.0
 offset_bottom = 8.0
 
 [connection signal="pressed" from="start" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="start" to="." method="_on_start_pressed"]

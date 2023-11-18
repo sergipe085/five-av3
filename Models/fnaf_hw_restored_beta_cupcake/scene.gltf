@@ -1,0 +1,725 @@
+{
+  "accessors": [
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2564,
+      "max": [
+        0.18109792470932007,
+        0.45550674200057983,
+        0.17780452966690063
+      ],
+      "min": [
+        -0.18133579194545746,
+        -0.026334047317504883,
+        -0.18258070945739746
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 30768,
+      "componentType": 5126,
+      "count": 2564,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2564,
+      "max": [
+        1.0,
+        0.9998726844787598,
+        0.9999809265136719,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999840259552002,
+        -0.9999810457229614,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2564,
+      "max": [
+        0.9975590109825134,
+        0.8531060814857483
+      ],
+      "min": [
+        0.0016803714679554105,
+        0.001941382884979248
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 12408,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 61536,
+      "componentType": 5126,
+      "count": 70,
+      "max": [
+        0.014560963027179241,
+        0.5278488397598267,
+        0.014278050512075424
+      ],
+      "min": [
+        -0.016223030164837837,
+        0.4536948502063751,
+        -0.01639670506119728
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 62376,
+      "componentType": 5126,
+      "count": 70,
+      "max": [
+        0.9792866706848145,
+        0.9998794794082642,
+        0.9804872870445251
+      ],
+      "min": [
+        -0.9820345640182495,
+        -0.9292967319488525,
+        -0.9810367226600647
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 41024,
+      "componentType": 5126,
+      "count": 70,
+      "max": [
+        0.9859590530395508,
+        0.7979183793067932,
+        0.9626032114028931,
+        1.0
+      ],
+      "min": [
+        -0.9856681823730469,
+        -0.7960172891616821,
+        -0.953852653503418,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 20512,
+      "componentType": 5126,
+      "count": 70,
+      "max": [
+        0.3806374669075012,
+        0.06317256391048431
+      ],
+      "min": [
+        0.004773065447807312,
+        0.0027859732508659363
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 49632,
+      "componentType": 5125,
+      "count": 312,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        100.0,
+        8.575299359492305e-10,
+        1.3775547813565936e-08,
+        0.0,
+        0.0,
+        100.0,
+        5.343242719391128e-07,
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0006346520967781544,
+        0.0,
+        8.803544698787746e-12,
+        1.0
+      ],
+      "min": [
+        1.0,
+        -8.634440782584544e-17,
+        0.0,
+        0.0,
+        -8.575368193319832e-10,
+        1.0,
+        0.0,
+        0.0,
+        -1.3775547813565936e-08,
+        -5.343242719391128e-07,
+        1.0,
+        0.0,
+        0.0,
+        -0.3420443832874298,
+        -1.382866836720318e-15,
+        1.0
+      ],
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 2564,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 42144,
+      "componentType": 5126,
+      "count": 2564,
+      "max": [
+        1.0,
+        0.4988965094089508,
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.5011035203933716,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 20512,
+      "componentType": 5123,
+      "count": 70,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 83168,
+      "componentType": 5126,
+      "count": 70,
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Teiga (https://sketchfab.com/Mnteiga)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/fnaf-hw-restored-beta-cupcake-c8524c3541d04ce282d4011fa5be60cf",
+      "title": "FNaF HW: Restored Beta Cupcake"
+    },
+    "generator": "Sketchfab-15.42.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 21072,
+      "byteStride": 8,
+      "name": "shortBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 50880,
+      "byteOffset": 21072,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21072,
+      "byteOffset": 71952,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 63216,
+      "byteOffset": 93024,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 84288,
+      "byteOffset": 156240,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 576,
+      "byteOffset": 240528,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 241104,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength"
+  ],
+  "images": [
+    {
+      "uri": "textures/Cupcake_baseColor.png"
+    },
+    {
+      "uri": "textures/Cupcake_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Cupcake_emissive.png"
+    },
+    {
+      "uri": "textures/Cupcake_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2.971437627238483
+        }
+      },
+      "name": "Cupcake",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Beta_Cupcake_Cupcake_0",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 11,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 3,
+            "TEXCOORD_2": 3,
+            "WEIGHTS_0": 12
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Beta_Cupcake.001_Cupcake_0",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 13,
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 8,
+            "TEXCOORD_2": 8,
+            "WEIGHTS_0": 14
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "67883e3ad7ef4d8e821b1abfe5d46415.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "RIG_Cupcake"
+    },
+    {
+      "children": [
+        5,
+        7,
+        17,
+        6,
+        16
+      ],
+      "name": "Object_4"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "_rootJoint"
+    },
+    {
+      "matrix": [
+        100.00000000000001,
+        -4.268458755926761e-21,
+        -1.0164395367051604e-20,
+        0.0,
+        -1.016439536705451e-20,
+        -1.8146425263900252e-12,
+        -100.00000000002784,
+        0.0,
+        4.268458755927763e-21,
+        100.00000000002781,
+        -1.8146425263900246e-12,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object_6"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_7",
+      "skin": 0
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "C_World_jnt_00",
+      "rotation": [
+        0.7071065902709961,
+        4.870381875576868e-09,
+        4.8703805433092384e-09,
+        0.7071069478988647
+      ]
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "CupcakeBaseBottom_jnt_01",
+      "rotation": [
+        -5.293955920339377e-23,
+        1.737079286361358e-23,
+        4.1065675345105036e-22,
+        1.0
+      ],
+      "translation": [
+        -2.1351990836534016e-23,
+        0.01775163970887661,
+        8.881784197001252e-16
+      ]
+    },
+    {
+      "children": [
+        11
+      ],
+      "name": "CupcakeBaseTop_jnt_02",
+      "rotation": [
+        -4.263256414560601e-14,
+        1.4210854715202004e-14,
+        -3.338519935412843e-23,
+        1.0
+      ],
+      "translation": [
+        -0.0006346519221551716,
+        0.12287763506174088,
+        -8.732890278972949e-12
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "name": "CupcakeFrostingBottom_jnt_03",
+      "rotation": [
+        7.105722802693004e-14,
+        -4.287644961298298e-10,
+        -4.287649679746153e-10,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.022822022438049316,
+        -3.552713678800501e-15
+      ]
+    },
+    {
+      "children": [
+        13
+      ],
+      "name": "CupcakeFrostingTop_jnt_04",
+      "rotation": [
+        8.5262173840292e-14,
+        4.286792310015386e-10,
+        4.287649957301909e-10,
+        1.0
+      ],
+      "translation": [
+        -2.3749037458831168e-11,
+        0.13575656712055206,
+        -7.101957910649048e-15
+      ]
+    },
+    {
+      "children": [
+        14
+      ],
+      "name": "Candle_jnt_05",
+      "rotation": [
+        -2.1316282072803006e-13,
+        4.440892098500626e-16,
+        -2.775740864786633e-17,
+        1.0
+      ],
+      "translation": [
+        1.919037845299343e-17,
+        0.04283648729324341,
+        -5.293955920339377e-23
+      ]
+    },
+    {
+      "children": [
+        15
+      ],
+      "name": "Candle_jnt_end_06",
+      "rotation": [
+        1.7053025658242404e-13,
+        1.3234889800848443e-23,
+        1.9448767093678037e-21,
+        1.0
+      ],
+      "translation": [
+        -1.0842021724855044e-19,
+        0.042836517095565796,
+        0.0
+      ]
+    },
+    {
+      "name": "Candle_jnt_end_end_07",
+      "rotation": [
+        5.293955920339377e-23,
+        -0.0,
+        -7.888609052210118e-31,
+        1.0
+      ],
+      "translation": [
+        1.0842021724855044e-19,
+        0.042836517095565796,
+        0.0
+      ]
+    },
+    {
+      "matrix": [
+        100.00000000000001,
+        -4.268458755926761e-21,
+        -1.0164395367051604e-20,
+        0.0,
+        -1.016439536705451e-20,
+        -1.8146425263900252e-12,
+        -100.00000000002784,
+        0.0,
+        4.268458755927763e-21,
+        100.00000000002781,
+        -1.8146425263900246e-12,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object_16"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_17",
+      "skin": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 10,
+      "joints": [
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "skeleton": 5
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

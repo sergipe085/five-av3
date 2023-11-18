@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bonnie's beta Guitar (FNaF VR)
+* source:	https://sketchfab.com/3d-models/bonnies-beta-guitar-fnaf-vr-e62d47f2067c4ded96c16e4695113633
+* author:	Captian_Allen (https://sketchfab.com/Allen_Animations)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bonnie's beta Guitar (FNaF VR)" (https://sketchfab.com/3d-models/bonnies-beta-guitar-fnaf-vr-e62d47f2067c4ded96c16e4695113633) by Captian_Allen (https://sketchfab.com/Allen_Animations) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

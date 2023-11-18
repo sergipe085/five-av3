@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://duvimmstw37u1"]
+
+[ext_resource type="PackedScene" uid="uid://chctcubi345vh" path="res://Models/chicahw_by_rodaanimation_dd8f5vl/scene.gltf" id="1_ia0jq"]
+[ext_resource type="PackedScene" uid="uid://ca1toki70a560" path="res://Models/fnaf_hw_restored_beta_cupcake/scene.gltf" id="2_g3qoc"]
+
+[node name="scene" instance=ExtResource("1_ia0jq")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
+
+[node name="scene" parent="." index="0" instance=ExtResource("2_g3qoc")]
+transform = Transform3D(35, 0, 0, 0, 35, 0, 0, 0, 35, 18.766, 61.8375, 20.8706)
+
+[node name="Skeleton3D" parent="Sketchfab_model/Root/chica_qc_skeleton" index="0"]
+bones/27/rotation = Quaternion(0.220475, -0.324525, -1.97253, 0.707475)
+bones/28/rotation = Quaternion(0.525475, -3.47453, -2.90453, 0.835475)
+bones/29/rotation = Quaternion(-0.064525, 0.290475, -0.00452503, 1.36048)
+bones/42/rotation = Quaternion(0.707475, 2.42747, 0.000474975, 0.000474975)
+bones/43/rotation = Quaternion(0.600475, 0.350475, 0.000474975, 1.00048)
+bones/44/rotation = Quaternion(0.075475, -0.089525, -0.284525, 1.00048)

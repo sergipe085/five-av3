@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dau0kboq0ru4p"]
+
+[ext_resource type="PackedScene" uid="uid://cr7f0m2v208th" path="res://Models/freddy/scene.gltf" id="1_gbs5q"]
+
+[node name="scene" instance=ExtResource("1_gbs5q")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
+
+[node name="Skeleton3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/RIG_Freddy_ao_70/GLTF_created_0" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.82006, 0.39854, 0.119061)
+bones/29/rotation = Quaternion(1.96248, 0.657475, 0.030475, -0.234525)
+bones/30/rotation = Quaternion(-1.02453, 0.315475, -0.194525, 1.00048)
+bones/31/rotation = Quaternion(0.000474975, -0.284525, 0.310475, 1.00048)
+bones/46/position = Vector3(-32.1745, 51.0335, -0.080525)
+bones/46/rotation = Quaternion(-0.144525, -0.119525, -0.317525, 1.12748)
+bones/47/rotation = Quaternion(-1.41453, 0.015475, 0.000474975, 1.00048)
+bones/48/position = Vector3(0.422475, -31.3315, -0.505525)
+bones/48/rotation = Quaternion(0.000474975, 0.000474975, 0.155475, 0.615475)

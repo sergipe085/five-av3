@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kitchen restaurant lowpoly
+* source:	https://sketchfab.com/3d-models/kitchen-restaurant-lowpoly-7ac983ec500b49eaa34e0ddd821555b9
+* author:	Dhany Lie (https://sketchfab.com/dhanylie)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kitchen restaurant lowpoly" (https://sketchfab.com/3d-models/kitchen-restaurant-lowpoly-7ac983ec500b49eaa34e0ddd821555b9) by Dhany Lie (https://sketchfab.com/dhanylie) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

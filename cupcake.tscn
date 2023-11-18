@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://doqauk1vy12mh"]
+
+[ext_resource type="PackedScene" uid="uid://ca1toki70a560" path="res://Models/fnaf_hw_restored_beta_cupcake/scene.gltf" id="1_grnnl"]
+
+[node name="scene" instance=ExtResource("1_grnnl")]
