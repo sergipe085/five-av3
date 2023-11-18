@@ -326,11 +326,17 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.862204, 0, 0)
 [node name="tv_53" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="29"]
 transform = Transform3D(1, 0, 0, 0, 0.999973, -0.00728203, 0, 0.00728203, 0.999973, 0.473795, 1.38854, 10.5075)
 
+[node name="Object_84" parent="Sketchfab_model/root/GLTF_SceneRootNode/tv_53" index="0"]
+transform = Transform3D(1.2, 0, 0, 0, 1.2, -1.86265e-09, 0, 1.86265e-09, 1.2, 0, 0.110366, -0.00080204)
+
 [node name="Object_88" parent="Sketchfab_model/root/GLTF_SceneRootNode/tv_53" index="4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(1.2, 0, 0, 0, 1.2, -1.86265e-09, 0, 1.86265e-09, 1.2, 0, 0.113802, -0.0243683)
 
 [node name="ventanas_54" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="30"]
 transform = Transform3D(1.53973, 0, 0, 0, 1.53973, 0, 0, 0, 1.53973, 0.353941, -0.17322, 2.32675)
+
+[node name="Object_93" parent="Sketchfab_model/root/GLTF_SceneRootNode/ventanas_54" index="0"]
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, -0.232627, 0.217325, -0.92678)
 
 [node name="ventilador_55" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="31"]
 transform = Transform3D(0.760393, -7.98509e-07, -0.0860967, -7.98509e-07, 0.765252, -1.41497e-05, 0.0860967, 1.41497e-05, 0.760393, 0.327304, 1.14238, 10.2301)
