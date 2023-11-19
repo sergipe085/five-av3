@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bx64f154w1y6y"]
+
+[ext_resource type="Script" path="res://Scenes/mission_animatronic/animatronic.gd" id="1_ba5qv"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vckhq"]
+height = 2.58513
+
+[node name="animatronic" type="RigidBody3D" groups=["animatronics"]]
+freeze = true
+script = ExtResource("1_ba5qv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0974, 0)
+shape = SubResource("CapsuleShape3D_vckhq")

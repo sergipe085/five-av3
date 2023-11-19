@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://b46noejyrsir"]
+
+[ext_resource type="Script" path="res://Scenes/desafio_fios/fio.gd" id="1_fpa0b"]
+
+[node name="fio" type="ColorRect" node_paths=PackedStringArray("fio_pos") groups=["fios"]]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 398.0
+offset_top = 637.0
+offset_right = -1461.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 0, 0, 1)
+script = ExtResource("1_fpa0b")
+fio_pos = NodePath("fio_pos")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = -12.0
+offset_top = -36.0
+offset_right = 72.0
+offset_bottom = 4.0
+
+[node name="fio_pos" type="Node2D" parent="."]
+position = Vector2(28, -33)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

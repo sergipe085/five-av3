@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cokrdg3n63i8m"]
+
+[ext_resource type="Script" path="res://Scenes/mission_animatronic/mission_animatronic.gd" id="1_6u5eg"]
+
+[node name="mission_animatronic" type="Node"]
+script = ExtResource("1_6u5eg")
+mission_name = "Ligue os animatronics"
+mission_desc = "Ligue todos os animatronics do palco para entreter seus clientes."
+target_quantity = 2

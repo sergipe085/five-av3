@@ -1,7 +1,7 @@
 extends mission
 
-func start_mission():
-	super.start_mission();
+func _ready():
+	super._ready();
 	var geradores = get_tree().get_nodes_in_group("geradores")
 	for i in geradores:
 		if i is gerador:
