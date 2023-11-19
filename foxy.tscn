@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://doqbv6vbm4ysr"]
+
+[ext_resource type="PackedScene" uid="uid://cpb3fffxsiohr" path="res://Models/foxy/scene.gltf" id="1_nfco5"]
+
+[node name="scene" instance=ExtResource("1_nfco5")]
+transform = Transform3D(0.12, 0, 0, 0, 0.12, 0, 0, 0, 0.12, 0, 0, 0)
+
+[node name="Skeleton3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/Sketchfab_model_0/Root_1/foxy_qc_skeleton_10/GLTF_created_0" index="0"]
+bones/4/rotation = Quaternion(-0.499525, -0.209525, -0.654525, 0.170475)
+bones/5/rotation = Quaternion(0.00547497, 0.480475, -0.454525, 0.790475)
+bones/6/rotation = Quaternion(0.000474975, -0.309525, -0.029525, 1.00048)
+bones/7/position = Vector3(-2.33453, 4.98848, 0.268475)
+bones/7/rotation = Quaternion(-0.164525, 0.000474975, 0.000474975, 1.00048)
+bones/9/rotation = Quaternion(-0.164525, -0.079525, 0.000474975, 1.00048)
+bones/11/rotation = Quaternion(-0.164525, 0.000474975, 0.000474975, 1.00048)
+bones/13/rotation = Quaternion(0.000474975, 0.455475, -0.497525, 0.707475)
+bones/15/rotation = Quaternion(-0.314525, 0.435475, 1.50548, 0.190475)
+bones/16/rotation = Quaternion(0.630475, 0.665475, 0.910475, 1.00048)
+bones/17/rotation = Quaternion(0.295475, -0.569525, 0.270475, 1.00048)

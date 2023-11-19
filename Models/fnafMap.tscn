@@ -79,8 +79,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 [node name="escenario_7" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="6"]
 transform = Transform3D(-6.55671e-08, 0, -1.5, 0, 1, 0, 1.5, 0, -6.55671e-08, 0.0905838, 0, -9.95119)
 
+[node name="Object_19" parent="Sketchfab_model/root/GLTF_SceneRootNode/escenario_7" index="0"]
+transform = Transform3D(1, 0, 3.55271e-15, 0, 1, 0, -3.55271e-15, 0, 1, 0, 0, 0)
+
 [node name="case_11" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="7"]
-transform = Transform3D(0.6, 0, 0, 0, 0.453, 0, 0, 0, 0.453, 12.2237, 4.1876, 6.18579)
+transform = Transform3D(0.6, 0, 0, 0, 0.453, 0, 0, 0, 0.453, 12.2237, 4.12353, 6.18579)
 
 [node name="Object_21" parent="Sketchfab_model/root/GLTF_SceneRootNode/case_11" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.118135, 0)
@@ -105,8 +108,9 @@ spot_angle_attenuation = 0.00285954
 transform = Transform3D(2.38566, -7.55473e-05, -0.00391321, 0.00391394, 0.0460483, 2.38522, 0, -2.38522, 0.0460483, -10.9797, -0.806856, 9.41012)
 light_indirect_energy = 16.0
 light_volumetric_fog_energy = 16.0
+spot_range = 4.0
 spot_attenuation = 0.0086685
-spot_angle = 63.18
+spot_angle = 47.6147
 spot_angle_attenuation = 0.00285954
 
 [node name="SpotLight3D4" type="SpotLight3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/case_11/Object_21" index="3"]
@@ -254,7 +258,43 @@ spot_angle = 63.18
 spot_angle_attenuation = 0.00285954
 
 [node name="SpotLight3D22" type="SpotLight3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/case_11/Object_21" index="21"]
-transform = Transform3D(1.79088, 0.137269, 0.112115, -0.228129, 1.42976, 1.8935, 0.0553569, -1.89851, 1.44021, -19.6891, -0.279883, -33.0588)
+transform = Transform3D(1.79088, 0.137269, 0.112115, -0.228129, 1.42976, 1.8935, 0.0553569, -1.89851, 1.44021, -24.1607, -0.279883, -33.0588)
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 25.375
+spot_range = 2.33161
+spot_attenuation = 0.0915054
+spot_angle = 53.7508
+spot_angle_attenuation = 0.164939
+
+[node name="SpotLight3D23" type="SpotLight3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/case_11/Object_21" index="22"]
+transform = Transform3D(1.79088, 0.137269, 0.112115, -0.228129, 1.42976, 1.8935, 0.0553569, -1.89851, 1.44021, -15.8116, -0.279883, -33.0588)
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 25.375
+spot_range = 2.33161
+spot_attenuation = 0.0915054
+spot_angle = 53.7508
+spot_angle_attenuation = 0.164939
+
+[node name="SpotLight3D24" type="SpotLight3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/case_11/Object_21" index="23"]
+transform = Transform3D(1.79963, 0, 0, 0, 0.0832283, 2.38216, 0, -2.38216, 0.0832283, 10.658, -0.806856, -22.4138)
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 16.0
+spot_range = 3.0
+spot_attenuation = 0.0086685
+spot_angle = 35.0171
+spot_angle_attenuation = 0.00285954
+
+[node name="SpotLight3D25" type="SpotLight3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/case_11/Object_21" index="24"]
+transform = Transform3D(1.79963, 0, 0, 0, 0.0832283, 2.38216, 0, -2.38216, 0.0832283, 10.658, -0.806856, -12.3068)
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 16.0
+spot_range = 4.14953
+spot_attenuation = 0.0086685
+spot_angle = 35.0171
+spot_angle_attenuation = 0.00285954
+
+[node name="SpotLight3D26" type="SpotLight3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/case_11/Object_21" index="25"]
+transform = Transform3D(1.79088, 0.137269, 0.112115, -0.228129, 1.42976, 1.8935, 0.0553569, -1.89851, 1.44021, -20.0315, -0.279883, -33.0588)
 light_indirect_energy = 16.0
 light_volumetric_fog_energy = 25.375
 spot_range = 2.33161
@@ -401,10 +441,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.96028, 0.605355, -9.95789)
 transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, -10.6083, 0.0417233, -3.8489)
 
 [node name="teto" type="Node3D" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="44"]
-transform = Transform3D(1.53973, 0, 0, 0, 1.53973, 0, 0, 0, 1.53973, 0, 3.15789, 0)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 3.92872, 0)
+visible = false
 
 [node name="Object_6" type="MeshInstance3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/teto" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.27119, 0)
-visible = false
 mesh = SubResource("ArrayMesh_0shv8")
 skeleton = NodePath("")
