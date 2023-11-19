@@ -1,0 +1,861 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        1.2343729734420776,
+        1.2343729734420776,
+        4.446413040161133
+      ],
+      "min": [
+        -1.2343729734420776,
+        1.0232168436050415,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 240,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 30,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 480,
+      "componentType": 5126,
+      "count": 92,
+      "max": [
+        1.2343729734420776,
+        1.2730427980422974,
+        4.446413040161133
+      ],
+      "min": [
+        -1.2343729734420776,
+        -1.2343729734420776,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1584,
+      "componentType": 5126,
+      "count": 92,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 120,
+      "componentType": 5125,
+      "count": 150,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2688,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        -0.643714189529419,
+        1.2595343589782715,
+        2.7818665504455566
+      ],
+      "min": [
+        -1.0838019847869873,
+        1.2343729734420776,
+        0.7648953199386597
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4704,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        0.6343269348144531,
+        1.0,
+        0.6343261003494263
+      ],
+      "min": [
+        -0.6343294978141785,
+        -1.0,
+        -0.634328305721283
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 720,
+      "componentType": 5125,
+      "count": 252,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6720,
+      "componentType": 5126,
+      "count": 40,
+      "max": [
+        0.8612512946128845,
+        1.2558560371398926,
+        4.340662479400635
+      ],
+      "min": [
+        -0.7937248349189758,
+        1.234372854232788,
+        2.4706408977508545
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7200,
+      "componentType": 5126,
+      "count": 40,
+      "max": [
+        0.3931080996990204,
+        1.0,
+        0.19340327382087708
+      ],
+      "min": [
+        -0.38993191719055176,
+        -1.0,
+        -0.1777651160955429
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1728,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7680,
+      "componentType": 5126,
+      "count": 40,
+      "max": [
+        0.8913902640342712,
+        1.2558560371398926,
+        4.380449295043945
+      ],
+      "min": [
+        -0.8163307309150696,
+        1.234372854232788,
+        2.413544178009033
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8160,
+      "componentType": 5126,
+      "count": 40,
+      "max": [
+        0.6442035436630249,
+        1.0,
+        0.3396194279193878
+      ],
+      "min": [
+        -0.5970867872238159,
+        -1.0,
+        -0.36230409145355225
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2016,
+      "componentType": 5125,
+      "count": 60,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8640,
+      "componentType": 5126,
+      "count": 90,
+      "max": [
+        0.36761850118637085,
+        1.2639051675796509,
+        3.7730343341827393
+      ],
+      "min": [
+        -0.341305673122406,
+        1.234372854232788,
+        3.0203099250793457
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 9720,
+      "componentType": 5126,
+      "count": 90,
+      "max": [
+        0.8578311800956726,
+        1.0,
+        0.9736771583557129
+      ],
+      "min": [
+        -0.9955049753189087,
+        -1.0,
+        -0.8176063895225525
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2256,
+      "componentType": 5125,
+      "count": 120,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10800,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        1.2343729734420776,
+        1.2343729734420776,
+        4.446413040161133
+      ],
+      "min": [
+        -1.2343729734420776,
+        1.0232168436050415,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11040,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2736,
+      "componentType": 5125,
+      "count": 30,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11280,
+      "componentType": 5126,
+      "count": 92,
+      "max": [
+        1.2343729734420776,
+        1.2730427980422974,
+        4.446413040161133
+      ],
+      "min": [
+        -1.2343729734420776,
+        -1.2343729734420776,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12384,
+      "componentType": 5126,
+      "count": 92,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2856,
+      "componentType": 5125,
+      "count": 150,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 13488,
+      "componentType": 5126,
+      "count": 274,
+      "max": [
+        0.8604823350906372,
+        1.2949516773223877,
+        4.198191165924072
+      ],
+      "min": [
+        -1.0838019847869873,
+        1.2343729734420776,
+        0.7648953199386597
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16776,
+      "componentType": 5126,
+      "count": 274,
+      "max": [
+        0.9867962598800659,
+        1.0,
+        0.9899172782897949
+      ],
+      "min": [
+        -0.9866599440574646,
+        -1.0,
+        -0.9876300096511841
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3456,
+      "componentType": 5125,
+      "count": 420,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20064,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.7081934809684753,
+        1.2928904294967651,
+        2.906076431274414
+      ],
+      "min": [
+        -0.15920676290988922,
+        1.2343729734420776,
+        2.534152030944824
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20256,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.9579865336418152,
+        1.0,
+        0.0035314576234668493
+      ],
+      "min": [
+        -0.9849259853363037,
+        -1.0,
+        -0.23971663415431976
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5136,
+      "componentType": 5125,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Tiko (https://sketchfab.com/tikoavp)",
+      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/vending-machines-25e15b90f1da4fa69216636f48bc5455",
+      "title": "Vending Machines"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5232,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20448,
+      "byteOffset": 5232,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 25680,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "green",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.06074149999999999,
+          0.7999999999999999,
+          0.058294700000000026,
+          1.0
+        ],
+        "metallicFactor": 0.42124199697207376,
+        "roughnessFactor": 0.28082951802467326
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Asphalt.003",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0607194,
+          0.0607194,
+          0.0607194,
+          1.0
+        ],
+        "metallicFactor": 0.37260061166542024,
+        "roughnessFactor": 0.29907003751466843
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "white",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.19627558992880118,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Sign",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.2639569999999998,
+          0.08166539999999996,
+          1.0
+        ],
+        "metallicFactor": 0.15371437778547933,
+        "roughnessFactor": 0.0011415525114154557
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Concrete.004",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8591533805969142
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Stoppers.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.653545,
+          0.0584932,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8743340771929546
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7999999999999999,
+          0.011330400000000015,
+          0.009501030000000014,
+          1.0
+        ],
+        "metallicFactor": 0.5063644212587175,
+        "roughnessFactor": 0.28082951802467326
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.357",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.642286,
+          0.156728,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9460554156804919
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Food Vending Machine_green_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Food Vending Machine_Asphalt.003_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Food Vending Machine_white_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6
+          },
+          "indices": 8,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Food Vending Machine_Sign_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9
+          },
+          "indices": 11,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Food Vending Machine_Concrete.004_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12
+          },
+          "indices": 14,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Food Vending Machine_Stoppers.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15
+          },
+          "indices": 17,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Drink Vending Machine_red_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 19,
+            "POSITION": 18
+          },
+          "indices": 20,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Drink Vending Machine_Asphalt.003_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 22,
+            "POSITION": 21
+          },
+          "indices": 23,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Drink Vending Machine_white_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 25,
+            "POSITION": 24
+          },
+          "indices": 26,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Drink Vending Machine_Material.357_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 28,
+            "POSITION": 27
+          },
+          "indices": 29,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "1d6604483a7f4405b9280cc48dc5996e.fbx"
+    },
+    {
+      "children": [
+        3,
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "matrix": [
+        1.4922100587565069e-06,
+        -2.6387368589884963e-16,
+        -4.75352573394752,
+        0.0,
+        -4.753525733947517,
+        -2.0778321753154912e-07,
+        -1.4922100595481278e-06,
+        0.0,
+        -2.0778321753154912e-07,
+        4.75352573394775,
+        -6.64961688465101e-14,
+        0.0,
+        882.3872680664063,
+        -446.2469482421875,
+        -857.87451171875,
+        1.0
+      ],
+      "name": "Food Vending Machine"
+    },
+    {
+      "mesh": 0,
+      "name": "Food Vending Machine_green_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Food Vending Machine_Asphalt.003_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Food Vending Machine_white_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Food Vending Machine_Sign_0"
+    },
+    {
+      "mesh": 4,
+      "name": "Food Vending Machine_Concrete.004_0"
+    },
+    {
+      "mesh": 5,
+      "name": "Food Vending Machine_Stoppers.001_0"
+    },
+    {
+      "children": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "matrix": [
+        1.4922100587565069e-06,
+        -2.6387368589884963e-16,
+        -4.75352573394752,
+        0.0,
+        -4.753525733947517,
+        -2.0778321753154912e-07,
+        -1.4922100595481278e-06,
+        0.0,
+        -2.0778321753154912e-07,
+        4.75352573394775,
+        -6.64961688465101e-14,
+        0.0,
+        882.3872680664063,
+        -446.2469482421875,
+        -842.9872436523438,
+        1.0
+      ],
+      "name": "Drink Vending Machine"
+    },
+    {
+      "mesh": 6,
+      "name": "Drink Vending Machine_red_0"
+    },
+    {
+      "mesh": 7,
+      "name": "Drink Vending Machine_Asphalt.003_0"
+    },
+    {
+      "mesh": 8,
+      "name": "Drink Vending Machine_white_0"
+    },
+    {
+      "mesh": 9,
+      "name": "Drink Vending Machine_Material.357_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low poly Foosball
+* source:	https://sketchfab.com/3d-models/low-poly-foosball-424a7e5528164c49abd6ac4bb120b8a9
+* author:	izohaibzaiby (https://sketchfab.com/izohaibzaiby)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low poly Foosball" (https://sketchfab.com/3d-models/low-poly-foosball-424a7e5528164c49abd6ac4bb120b8a9) by izohaibzaiby (https://sketchfab.com/izohaibzaiby) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

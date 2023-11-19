@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://b1ktqje2668lr"]
+[gd_scene load_steps=4 format=3 uid="uid://b1ktqje2668lr"]
 
 [ext_resource type="Script" path="res://history.gd" id="1_omyhi"]
 [ext_resource type="Texture2D" uid="uid://dm1nauepihxha" path="res://Nova pasta/miau.png" id="2_ahy5u"]
+[ext_resource type="Texture2D" uid="uid://cmgshs5as04rc" path="res://Models/static/cover 4.png" id="3_6gawx"]
 
 [node name="history" type="Control" node_paths=PackedStringArray("textures")]
 layout_mode = 3
@@ -11,7 +12,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_omyhi")
-textures = [NodePath("history_part_1")]
+textures = [NodePath("history_part_1"), NodePath("history_part_2")]
 
 [node name="history_part_1" type="TextureRect" parent="."]
 layout_mode = 1
@@ -21,6 +22,16 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_ahy5u")
+
+[node name="history_part_2" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_6gawx")
 
 [node name="transition" type="ColorRect" parent="."]
 layout_mode = 1

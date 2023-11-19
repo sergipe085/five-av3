@@ -1,0 +1,11 @@
+Model Information:
+* title:	FNAF - Security Breach - Monty's Gator Golf
+* source:	https://sketchfab.com/3d-models/fnaf-security-breach-montys-gator-golf-37a36f659e5540c1ae173d279ed0e821
+* author:	ScrinnodStudios (https://sketchfab.com/scrinnodstudios)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FNAF - Security Breach - Monty's Gator Golf" (https://sketchfab.com/3d-models/fnaf-security-breach-montys-gator-golf-37a36f659e5540c1ae173d279ed0e821) by ScrinnodStudios (https://sketchfab.com/scrinnodstudios) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

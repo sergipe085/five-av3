@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bucket
+* source:	https://sketchfab.com/3d-models/bucket-ac4b100dda264a189c837b784a8e242e
+* author:	Jayie (https://sketchfab.com/Jayie)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bucket" (https://sketchfab.com/3d-models/bucket-ac4b100dda264a189c837b784a8e242e) by Jayie (https://sketchfab.com/Jayie) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

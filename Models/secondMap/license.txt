@@ -1,0 +1,11 @@
+Model Information:
+* title:	Prize Corner UCN
+* source:	https://sketchfab.com/3d-models/prize-corner-ucn-889c6ac4eef74aa1bc2a2792d4cfa8e6
+* author:	MrUnknown (https://sketchfab.com/MrUnknownP3dAnimations)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Prize Corner UCN" (https://sketchfab.com/3d-models/prize-corner-ucn-889c6ac4eef74aa1bc2a2792d4cfa8e6) by MrUnknown (https://sketchfab.com/MrUnknownP3dAnimations) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
