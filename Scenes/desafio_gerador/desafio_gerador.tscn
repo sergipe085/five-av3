@@ -1,9 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://clmkmjp73iwow"]
+[gd_scene load_steps=5 format=3 uid="uid://clmkmjp73iwow"]
 
 [ext_resource type="Script" path="res://Scenes/desafio_gerador/desafio_gerador.gd" id="1_7o2qe"]
 [ext_resource type="PackedScene" uid="uid://bafgobvqi2yie" path="res://Scenes/desafio_button/desafio_button.tscn" id="2_877yr"]
+[ext_resource type="FontFile" uid="uid://cgaway51m20x" path="res://Materials/Consolas.ttf" id="2_tl2xp"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_3caha"]
+font = ExtResource("2_tl2xp")
 font_size = 80
 
 [node name="desafio_gerador" type="Control" node_paths=PackedStringArray("buttons")]
@@ -51,6 +53,7 @@ offset_right = -350.0
 offset_bottom = 383.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_tl2xp")
 theme_override_font_sizes/font_size = 80
 
 [node name="desafio_button2" parent="Panel" instance=ExtResource("2_877yr")]
@@ -59,6 +62,7 @@ offset_left = 776.0
 offset_top = 516.0
 offset_right = 1176.0
 offset_bottom = 916.0
+theme_override_fonts/font = ExtResource("2_tl2xp")
 
 [node name="desafio_button3" parent="Panel" instance=ExtResource("2_877yr")]
 layout_mode = 0
@@ -66,3 +70,4 @@ offset_left = 1305.0
 offset_top = 521.0
 offset_right = 1705.0
 offset_bottom = 921.0
+theme_override_fonts/font = ExtResource("2_tl2xp")

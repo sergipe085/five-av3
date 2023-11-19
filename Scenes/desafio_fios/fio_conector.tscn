@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://caqkbndbldfh6"]
+
+[ext_resource type="Script" path="res://Scenes/desafio_fios/fio_conector.gd" id="1_3loks"]
+
+[node name="fio_conector" type="Line2D"]
+points = PackedVector2Array(0, 0, 0, 0)
+width = 75.0
+script = ExtResource("1_3loks")

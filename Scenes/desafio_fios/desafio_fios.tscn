@@ -1,0 +1,112 @@
+[gd_scene load_steps=5 format=3 uid="uid://c4y6fdt5jmdp0"]
+
+[ext_resource type="Script" path="res://Scenes/desafio_fios/desafio_fios.gd" id="1_wm3sc"]
+[ext_resource type="FontFile" uid="uid://cgaway51m20x" path="res://Materials/Consolas.ttf" id="2_4gn1o"]
+[ext_resource type="PackedScene" uid="uid://b46noejyrsir" path="res://Scenes/desafio_fios/fio.tscn" id="4_1xbd7"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3caha"]
+font = ExtResource("2_4gn1o")
+font_size = 80
+
+[node name="desafio_fios" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wm3sc")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dica" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -687.0
+offset_top = 420.0
+offset_right = 669.0
+offset_bottom = 731.0
+grow_horizontal = 2
+text = "Ligue os fios na ordem correta"
+label_settings = SubResource("LabelSettings_3caha")
+horizontal_alignment = 1
+
+[node name="fio_baixo" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 215.0
+offset_top = 846.0
+offset_right = -1644.0
+offset_bottom = 209.0
+cor = 2
+
+[node name="fio2_baixo" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 724.0
+offset_top = 928.0
+offset_right = -1135.0
+offset_bottom = 291.0
+color = Color(0, 1, 0, 1)
+cor = 1
+
+[node name="fio3_baixo" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 1313.0
+offset_top = 781.0
+offset_right = -546.0
+offset_bottom = 144.0
+color = Color(0, 0, 1, 1)
+
+[node name="fio4_baixo" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 1753.0
+offset_top = 866.0
+offset_right = -106.0
+offset_bottom = 229.0
+color = Color(0.713726, 0.827451, 0.0784314, 1)
+cor = 3
+
+[node name="fio5_cima" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 732.0
+offset_top = 259.0
+offset_right = -1127.0
+offset_bottom = -378.0
+rotation = 3.14159
+cor = 2
+
+[node name="fio6_cima" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 1749.0
+offset_top = 224.0
+offset_right = -110.0
+offset_bottom = -413.0
+rotation = 3.14159
+color = Color(0, 1, 0, 1)
+cor = 1
+
+[node name="fio7_cima" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 233.0
+offset_top = 143.0
+offset_right = -1626.0
+offset_bottom = -494.0
+rotation = 3.14159
+color = Color(0, 0, 1, 1)
+
+[node name="fio8_cima" parent="Panel" instance=ExtResource("4_1xbd7")]
+layout_mode = 1
+offset_left = 1076.0
+offset_top = 124.0
+offset_right = -783.0
+offset_bottom = -513.0
+rotation = 3.14159
+color = Color(0.713726, 0.827451, 0.0784314, 1)
+cor = 3

@@ -19,7 +19,6 @@ func _process(delta):
 	pass
 
 func start_mission():
-	current_quantity = 0;
 	if (on_add_quantity.is_valid()):
 		on_add_quantity.bind(self).call()
 	
