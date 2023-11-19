@@ -1,10 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bacmwxu6goh4h"]
+[gd_scene load_steps=4 format=3 uid="uid://bacmwxu6goh4h"]
 
 [ext_resource type="Script" path="res://mission_manager_hud.gd" id="1_stq88"]
-[ext_resource type="FontFile" uid="uid://cgaway51m20x" path="res://Materials/Consolas.ttf" id="2_4mkpu"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_gng7y"]
-font = ExtResource("2_4mkpu")
 font_size = 65
 
 [sub_resource type="LabelSettings" id="LabelSettings_6c60k"]
@@ -38,7 +36,7 @@ offset_top = 82.0
 offset_right = 187.5
 offset_bottom = 156.0
 grow_horizontal = 2
-text = ">> MISSION_NAME <<"
+text = "MISSION_NAME"
 label_settings = SubResource("LabelSettings_gng7y")
 horizontal_alignment = 1
 vertical_alignment = 1
