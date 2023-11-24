@@ -22,7 +22,7 @@ func equacao():
 		var n: int = randi_range(1, 10);
 		eq_str += str(n);
 		
-		var op = randi_range(0, 3);
+		var op = randi_range(0, 1);
 		
 		if (op == 0):
 			eq_str += " + "
