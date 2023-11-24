@@ -64,17 +64,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.72873, 0, 0.92369)
 transform = Transform3D(0.415798, 0, 0, 0, 0.415798, 0, 0, 0, 0.415798, 11.6909, 0.585488, 5.12161)
 visible = false
 
-[node name="Object_11" parent="Sketchfab_model/root/GLTF_SceneRootNode/muebles cocina_4" index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
-
 [node name="Object_13" parent="Sketchfab_model/root/GLTF_SceneRootNode/regriferadora_5" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.868, 0, 1.91223)
 
 [node name="kitchen_6" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="5"]
 transform = Transform3D(0.415798, 0, 0, 0, 0.415798, 0, 0, 0, 0.415798, 11.6909, 0.585488, 5.08686)
-
-[node name="Object_15" parent="Sketchfab_model/root/GLTF_SceneRootNode/kitchen_6" index="0"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="escenario_7" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="6"]
 transform = Transform3D(-6.55671e-08, 0, -1.5, 0, 1, 0, 1.5, 0, -6.55671e-08, 0.0905838, 0, -9.95119)
