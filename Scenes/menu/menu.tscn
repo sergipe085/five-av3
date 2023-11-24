@@ -200,5 +200,5 @@ layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
 
-[connection signal="pressed" from="start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="start" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="start" to="." method="_on_start_pressed"]
